@@ -1,0 +1,16 @@
+<h1>Welcome to Mailbox, <%= @user.name %>!</h1>
+
+<p>
+	You have successfully signed up to Mailbox! Your
+	username is: <%= @user.username %>.
+</p>
+
+<p>
+	<%= link_to @url do %>
+		<i class="glyphicon glyphicon-log-in"></i> Log In To Mailbox!
+	<% end %>
+</p>
+
+<p>
+	Thanks for joining. Have a great day!
+</p>
